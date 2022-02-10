@@ -25,6 +25,7 @@ form {
 	justify-content: center;
 }
 input:not([type=submit]) {
+	width: 80%;
 	font-size: 1em;
 	line-height: 50px;
 	min-height: 50px;
@@ -55,7 +56,6 @@ input[type=submit] {
 	display: flex;
 	flex-direction: column;
 	flex: 50%;
-	flex-wrap: wrap;
 	place-content: center;
 	padding: 20px;
 }
