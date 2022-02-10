@@ -11,6 +11,11 @@ body {
 	min-height: 100vh;
 }
 
+form {
+	border: solid 1px #ccc;
+	padding: 20px;
+	margin-bottom: 10px;
+}
 .parent-container {
 	min-height: 100vh;
 	min-width: 100%;
