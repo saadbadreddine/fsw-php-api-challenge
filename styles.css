@@ -9,12 +9,13 @@ body {
 	padding: 0;
 	max-width: 100%;
 	min-height: 100vh;
+	background-color: #ebebeb;
 }
-
 form {
 	border: solid 1px #ccc;
 	padding: 20px;
 	margin-bottom: 10px;
+	background-color: #f5f5f5;
 }
 .parent-container {
 	min-height: 100vh;
@@ -31,8 +32,9 @@ input:not([type=submit]) {
 	min-height: 50px;
 	border: solid 1px #ccc;
 	outline-color: #cccc;
-	margin: 10px 10px 10px 10px;
+	margin-bottom: 10px;
 	padding: 5px 15px 5px 15px;
+	text-align: center;
 }
 input[type=submit] {
 	width: 140px;
@@ -80,4 +82,5 @@ input[type=submit] {
 	text-align: center;
 	line-height: 50px;
 	padding: 5px 15px 5px 15px;
+	background-color: #fff;
 }
