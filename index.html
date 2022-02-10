@@ -13,36 +13,42 @@
 
 <body>
     <div class="parent-container">
+        <div class="row">
+            <div class="first-column">
+                <form id="xy-form">
+                    <input id="x-input" type="number" name="x" placeholder="Enter the value for x.."
+                        autocomplete="off" />
+                    <input id="y-input" type="number" name="y" placeholder="Enter the value for y.."
+                        autocomplete="off" />
+                    <input type="submit" value="Submit" />
+                </form>
+                <div class="xy-out" id="xy-output"></div>
 
-        <form id="xy-form">
-            <input id="x-input" type="number" name="x" placeholder="Enter the value for x.." autocomplete="off" />
-            <input id="y-input" type="number" name="y" placeholder="Enter the value for y.." autocomplete="off" />
-            <input type="submit" value="Submit" />
-        </form>
-        <div class="xy-out" id="xy-output"></div>
+                <form id="palindrome-form">
+                    <input id="palindrome-input" type="text" pattern="[a-zA-Z]*" name="palindrome"
+                        placeholder="Enter string to check if it's a palindrome" autocomplete="off"
+                        title="Name should only contain alphabets and no spaces" />
+                    <input type="submit" value="Submit" />
+                </form>
+                <div class="pal-out" id="palindrome-output"></div>
 
-        <form id="palindrome-form">
-            <input id="palindrome-input" type="text" pattern="[a-zA-Z]*" name="palindrome"
-                placeholder="Enter string to check if it's a palindrome" autocomplete="off"
-                title="Name should only contain alphabets and no spaces" />
-            <input type="submit" value="Submit" />
-        </form>
-        <div class="pal-out" id="palindrome-output"></div>
+            </div>
+            <div class="second-column">
+                <form id="removeblanks-form">
+                    <input id="removeblanks-input" type="text" name="removeblanks"
+                        placeholder="Enter string to remove extra spaces" autocomplete="off" title="" />
+                    <input type="submit" value="Submit" />
+                </form>
+                <div class="rmblanks-out" id="rmblanks-output"></div>
 
-        <form id="removeblanks-form">
-            <input id="removeblanks-input" type="text" name="removeblanks"
-                placeholder="Enter string to remove extra spaces" autocomplete="off" title="" />
-            <input type="submit" value="Submit" />
-        </form>
-        <div class="rmblanks-out" id="rmblanks-output"></div>
-
-        <form id="password-form">
-            <input id="password-input" type="password" name="password" placeholder="Enter your password"
-                autocomplete="off" />
-            <input type="submit" value="Submit" />
-        </form>
-        <div class="password-out" id="password-output"></div>
-
+                <form id="password-form">
+                    <input id="password-input" type="password" name="password" placeholder="Enter your password"
+                        autocomplete="off" />
+                    <input type="submit" value="Submit" />
+                </form>
+                <div class="password-out" id="password-output"></div>
+            </div>
+        </div>
     </div>
 </body>
 

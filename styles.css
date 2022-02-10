@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	font-family: Poppins;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -12,4 +18,43 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+input:not([type=submit]) {
+	font-size: 1em;
+	line-height: 30px;
+	padding: 10px 20px;
+	min-height: 50px;
+	border: unset;
+	outline-color: #cccc;
+	margin: 10px 10px 10px 10px;
+}
+input[type=submit] {
+	width: 140px;
+	height: 50px;
+	color: #fff;
+	background: rgb(0, 0, 0);
+	font-size: 1em;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	float: right;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.first-column {
+	display: flex;
+	flex-direction: column;
+	flex: 50%;
+	flex-wrap: wrap;
+}
+
+.second-column {
+	display: flex;
+	flex-direction: column;
+	flex: 50%;
+	flex-wrap: wrap;
 }
