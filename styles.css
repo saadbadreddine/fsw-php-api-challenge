@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* 
+
 * {
 	font-family: Poppins;
 }
@@ -24,7 +24,7 @@ input:not([type=submit]) {
 	line-height: 30px;
 	padding: 10px 20px;
 	min-height: 50px;
-	border: unset;
+	border: solid 1px #ccc;
 	outline-color: #cccc;
 	margin: 10px 10px 10px 10px;
 }
@@ -37,11 +37,13 @@ input[type=submit] {
 	text-decoration: none;
 	outline: none;
 	border: none;
+	margin-bottom: 15px;
 }
 
 .row {
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 
 .first-column {
@@ -49,6 +51,7 @@ input[type=submit] {
 	flex-direction: column;
 	flex: 50%;
 	flex-wrap: wrap;
+	place-content: center;
 }
 
 .second-column {
@@ -56,5 +59,14 @@ input[type=submit] {
 	flex-direction: column;
 	flex: 50%;
 	flex-wrap: wrap;
+	place-content: center;
 }
-*/
+
+.output {
+	width: 80%;
+	height: 50px;
+	border: solid 1px #ccc;
+	margin: auto;
+	text-align: center;
+	line-height: 50px;
+}
