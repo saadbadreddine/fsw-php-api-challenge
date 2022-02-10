@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+/* 
 * {
 	font-family: Poppins;
 }
@@ -37,7 +37,6 @@ input[type=submit] {
 	text-decoration: none;
 	outline: none;
 	border: none;
-	float: right;
 }
 
 .row {
@@ -58,3 +57,4 @@ input[type=submit] {
 	flex: 50%;
 	flex-wrap: wrap;
 }
+*/
